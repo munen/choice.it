@@ -1,7 +1,7 @@
 ChoiceIt::Application.routes.draw do
 
-  root :to => 'posts#index'
-  resources :posts
+  root :to => 'events#index'
+  resources :events
 
   match '/exception_test' => 'exception_test#error'
 end
